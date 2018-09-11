@@ -13,6 +13,8 @@
     <link href="style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 
 </head>
@@ -520,15 +522,15 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
+                            <h4>Najih</h4>
+                            <p>Backend Developer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
+                            <img src="img/team-img/team-9.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -539,7 +541,7 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Alex Manning</h4>
+                            <h4>Yuan Ekatama P</h4>
                             <p>CEO-Founder</p>
                         </div>
                     </div>
@@ -547,7 +549,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
+                            <img src="img/team-img/team-8.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -558,7 +560,7 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Ollie Schneider</h4>
+                            <h4>Rifqi Nugroho P.R</h4>
                             <p>Business Planner</p>
                         </div>
                     </div>
@@ -577,7 +579,7 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Roger West</h4>
+                            <h4>Irsyaad Budi P</h4>
                             <p>Financer</p>
                         </div>
                     </div>
@@ -676,19 +678,19 @@
     <!-- ***** Footer Area Start ***** -->
 
     <!-- Jquery-2.2.4 JS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- <script src="jquery-2.2.4.min.js"></script> -->
     <!-- Popper js -->
     <script src="js/popper.min.js"></script>
     <!-- Bootstrap-4 Beta JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <!-- All Plugins JS -->
-    <script src="js/plugins.js"></script>
+    <script src="plugins.js"></script>
     <!-- Slick Slider Js-->
     <script src="js/slick.min.js"></script>
     <!-- Footer Reveal JS -->
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
-    <script src="js/active.js"></script>
+    <script src="active.js"></script>
 </body>
 
 </html>
