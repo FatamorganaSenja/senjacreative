@@ -1,6 +1,7 @@
 (function ($) {
     'use strict';
 
+    // [ JS Active Code Index ]
 
     // :: 1.0 Owl Carousel Active Code
     // :: 2.0 Slick Active Code
