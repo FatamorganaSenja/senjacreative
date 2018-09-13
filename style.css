@@ -1,29 +1,3 @@
-/* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com/
-:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
-:: Tags: Colorlib, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
-:: Version: v1.0
-:: Created: 11/03/2017
--------------------------- */
-
-/* --- [Master Stylesheet] ----
-:: 1.0 Base CSS Start
-:: 2.0 Header Area CSS
-:: 3.0 Wellcome Area CSS
-:: 4.0 Special Area CSS
-:: 5.0 Features Area CSS
-:: 6.0 Video Area CSS
-:: 7.0 Cool Facts Area CSS
-:: 8.0 Screenshots Area CSS
-:: 9.0 Pricing Plan Area CSS
-:: 10.0 Testimonials Area CSS
-:: 11.0 CTA Area CSS Start
-:: 12.0 Team Area CSS Start
-:: 13.0 Contact Area CSS Start
-:: 14.0 Footer Area CSS Start
--------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
 @import 'css/bootstrap.min.css';
@@ -63,6 +37,10 @@ h6 {
 .left_right_padding_5 {
     padding-left: 5px;
     padding-right: 5px;
+}
+.section_padding_30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section_padding_100 {
@@ -159,7 +137,9 @@ img {
 .mr-100 {
     margin-right: 100px;
 }
-
+.mb-10 {
+    margin-bottom: 10px;
+}
 .mb-15 {
     margin-bottom: 15px;
 }
@@ -241,10 +221,14 @@ p {
     font-size: 48px;
     margin: 0;
 }
-
-
+.section-heading-white > h2 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+}
 .section-heading {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .line-shape {
@@ -294,9 +278,9 @@ p {
     z-index: 999999;
 }
 
-.colorlib-load {
-    -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
-    animation: 2000ms linear 0s normal none infinite running colorlib-load;
+.senjacreative-load {
+    -webkit-animation: 2000ms linear 0s normal none infinite running senjacreative-load;
+    animation: 2000ms linear 0s normal none infinite running senjacreative-load;
     background: transparent none repeat scroll 0 0;
     border-color: #dddddd #dddddd #FA709A;
     border-radius: 50%;
@@ -310,7 +294,7 @@ p {
     z-index: 9;
 }
 
-@-webkit-keyframes colorlib-load {
+@-webkit-keyframes senjacreative-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -321,7 +305,7 @@ p {
     }
 }
 
-@keyframes colorlib-load {
+@keyframes senjacreative-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -346,12 +330,14 @@ p {
 }
 
 .menu_area .navbar-brand {
-    font-size: 72px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0;
+    margin-bottom: 8px;
     line-height: 1;
     padding: 0;
+}
+
+.menu_area .navbar-brand img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -437,8 +423,8 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg2.png);
-    height: 900px;
+    background-image: url(img/bg-img/wellcome-bg.png);
+    height: 790px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
@@ -1014,10 +1000,33 @@ p {
     transition-duration: 500ms;
 }
 
-.get-started-button {
+.email-button {
     text-align: right;
 }
 
+.email-button > a {
+    background: #fff;
+    height: 45px;
+    min-width: 155px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    color: #FA709A;
+    font-weight: 500;
+    border-radius: 23px 23px 23px 0;
+}
+
+.email-button > a:hover {
+    background: #BD79A5;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.email-button {
+    text-align: right;
+}
 /* --------------------------
 :: 12.0 Team Area CSS Start
 -------------------------- */
@@ -1115,7 +1124,7 @@ p {
     color: #BD79A5;
 }
 
-.footer-contact-area .line-shape {
+.footer-contact-area .line-shape-white {
     margin-left: 0;
 }
 
@@ -1161,11 +1170,16 @@ p {
 }
 
 .footer-contact-area {
-    background: #f5f9fc;
+    background: #a865e1;
+    background: -webkit-linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);
+    background: -webkit-linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);
+    background: -o-linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);
+    background-image: linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);
 }
 
 .footer-text > p {
     margin-bottom: 50px;
+    font-weight: 300;
 }
 
 /* --------------------------
@@ -1203,7 +1217,8 @@ p {
 }
 
 .footer-text {
-    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #fff;
 }
 
 .footer-menu ul li {
