@@ -83,9 +83,6 @@
     .footer-text > p {
         margin-bottom: 30px;
     }
-    .section-heading {
-        margin-bottom: 50px;
-    }
     .sing-up-button > a {
         margin-top: 4px;
         display: inline-block;
@@ -209,6 +206,10 @@
         text-align: left;
         margin-top: 20px;
     }
+    .email-button {
+        text-align: left;
+        margin-top: 20px;
+    }
     .contact_from {
         margin-top: 30px;
     }
@@ -254,5 +255,15 @@
     }
     .get-start-area .email {
         margin-bottom: 0;
+    }
+}
+@media (max-width: 1023px){
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+    .menu_area .navbar-brand img{
+        margin-bottom: 8px;
+        max-width: 80%;
+        max-height: 80%;
     }
 }
