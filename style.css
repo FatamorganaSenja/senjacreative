@@ -45,10 +45,10 @@ h6 {
 .section_full_padding_60 {
     padding: 60px;
 }
-.section_full_padding {
-    padding: 60px;
+.section_padding_60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-
 .section_padding_100 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -192,7 +192,7 @@ ol {
 #scrollUp {
     bottom: 0;
     font-size: 24px;
-    right: 30px;
+    left: 30px;
     width: 50px;
     background-color: #FA709A;
     color: #fff;
@@ -1214,11 +1214,14 @@ p {
     background: #161616;
     margin-bottom: 25px;
 }
-
-.footer-widget-top .widget-contact-icon{
-    margin-right: 20px;
-    margin-left: 20px;
+/*
+.widget-contact-icon{
+    margin: 0 10px;
+}*/
+.widget-contact-icon{
     font-size: 32px;
+    margin-left: 60px;
+    margin-right: 10px;
 }
 
 .info-title {
