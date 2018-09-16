@@ -266,7 +266,19 @@
         max-width: 80%;
         max-height: 80%;
     }
-    .section_full_padding{
-        padding: 60px 0;
+    .widget {
+        margin-top: 15px;
+    }
+    .widget:first-child{
+        margin-top: 0;
+    }
+    .navigation {
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .widget-contact-icon {
+        margin-left: 0;
     }
 }

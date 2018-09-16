@@ -1,18 +1,6 @@
 (function ($) {
     'use strict';
 
-    // [ JS Active Code Index ]
-
-    // :: 1.0 Owl Carousel Active Code
-    // :: 2.0 Slick Active Code
-    // :: 3.0 Footer Reveal Active Code
-    // :: 4.0 ScrollUp Active Code
-    // :: 5.0 CounterUp Active Code
-    // :: 6.0 onePageNav Active Code
-    // :: 7.0 Magnific-popup Video Active Code
-    // :: 8.0 Sticky Active Code
-    // :: 9.0 Preloader Active code
-
     // :: 1.0 Owl Carousel Active Code
     if ($.fn.owlCarousel) {
         $(".welcome_slides").owlCarousel({
@@ -79,14 +67,6 @@
             shadow: true,
             shadowOpacity: 0.3,
             zIndex: -101
-        });
-    }
-
-    // :: 4.0 ScrollUp Active Code
-    if ($.fn.scrollUp) {
-        $.scrollUp({
-            scrollSpeed: 1500,
-            scrollText: '<i class="fa fa-angle-up"></i>'
         });
     }
 
